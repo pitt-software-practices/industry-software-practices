@@ -5,6 +5,7 @@
 ## 1. DOWNLOAD CODE
 
 git clone {get url from github}
+cd {directory you just cloned}
 git checkout {figure out correct branch}
 
 ## 2. SETUP ISOLATED VIRTUAL ENVIRONMENT
@@ -30,3 +31,7 @@ pytest
 # or
 
 # ??
+
+## 6. INSTALL FOR EDITING
+
+pip install -e ./
