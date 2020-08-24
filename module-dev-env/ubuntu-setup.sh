@@ -11,4 +11,4 @@ sh -c 'echo "deb [arch=amd64] https://packagecloud.io/AtomEditor/atom/any/ any m
 apt-get update
 
 apt-get install -y atom vim
-apt-get install -y build-essential python3 pip3
+apt-get install -y build-essential python3 python3-pip
