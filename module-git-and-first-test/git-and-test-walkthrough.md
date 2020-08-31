@@ -15,11 +15,13 @@ as a practice for test-driven-development, lets start out by writing a test
 - create the directory tests and the file tests/test_sqrt.py. write the following code in this file:
 -
 ```
+from pytest import approx
 from extramath.sqrt import sqrt
 
 def test_sqrt():
   assert sqrt(4.0) == approx(2.0)
 ```
+- create the file `tests/__init__.py`
 - if you run pytest right now, it will fail. try it!
 
 - create the file `extramath/__init__.py`
