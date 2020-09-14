@@ -18,10 +18,11 @@ jupyter notebook
 # 4. install a kernel for your venv into
 python -m ipykernel install --user --name {asdfasd}
 
-# 5. run commands in atom using cntl-enter, cntl-shift-enter, cmd-shift-p, etc.
+# 5. in atom, install the hydrogen package!
+
+# 6. run commands in atom using cntl-enter, cntl-shift-enter, cmd-shift-p, etc.
 
 # Q: should jupyterlab be in your requirements.txt?
-
 
 # Now, how to get this to work on windows / WSL???
 # something like this:
@@ -35,10 +36,10 @@ jupyter notebook
 # 2. copy url from output, and modify the following YAML:
 
 [{
-  "name": "Remote server",
+  "name": "WSL",
   "options": {
-    "baseUrl": "http://example.com:8888",
-    "token": "my_secret_token"
+    "baseUrl": "http://127.0.0.1:8888",
+    "token": ""
   }
 }]
 
