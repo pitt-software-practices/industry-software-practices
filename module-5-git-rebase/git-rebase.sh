@@ -43,7 +43,7 @@ git log --oneline
 git diff
 # how do we separate out the two mixed purpose commits?
 
-git add --patch
+git add --patch plepy/PLEpy.py
 # add either the whitespace OR the solver change
 
 # now commit appropriately. I added the whitespace, so:
