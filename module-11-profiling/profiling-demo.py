@@ -5,7 +5,7 @@
 # install this package in a VENV and activate it!
 
 # install profiling requirements:
-pip install profiling_requirements.txt
+pip install -R profiling_requirements.txt
 
 # run the slow command:
 python test.py ./mof_w_alpha-maltose-2x2x1.cif
